@@ -1,0 +1,20 @@
+{
+  "extension_name": {
+    "message": "Clean on Click"
+  },
+  "extension_description": {
+    "message": "Control + click to clear text from any input field"
+  },
+  "options_page_title": {
+    "message": "Clean on Click options:"
+  },
+  "control_key_option": {
+    "message": "Clean text on click without pressing the Ctrl button:"
+  },
+  "open_guide_button": {
+    "message": "Open user guide"
+  },
+  "close_page_button": {
+    "message": "Close this page"
+  }  
+}
