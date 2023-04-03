@@ -1,5 +1,5 @@
 try {
-  importScripts('background.js', 'contextMenu.js');
+  importScripts('background.js');
 } catch (error) {
   console.error(error);
 }

@@ -15,9 +15,6 @@ chrome.runtime.onInstalled.addListener((details) => {
      case 'install':
         chrome.storage.local.set({
           "active": true,
-        }, () => {
-          chrome.tabs.create({ url: chrome.runtime.getURL(`${guideFileName}`) })
-          setUpContextMenus()
         })
         break;
      case 'update':
@@ -25,10 +22,6 @@ chrome.runtime.onInstalled.addListener((details) => {
           let active = typeof result.active == 'boolean' ? result.active : true
           chrome.storage.local.set({
             "active": active,
-          }, () => {
-            chrome.contextMenus.removeAll(() => {
-              setUpContextMenus()
-            })
           })
         })
         break;
