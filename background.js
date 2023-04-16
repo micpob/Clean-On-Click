@@ -25,10 +25,6 @@ chrome.runtime.onInstalled.addListener((details) => {
           })
         })
         break;
-     case 'chrome_update':
-        break;
-     case 'shared_module_update':
-        break;
      default:
         break;
   }
