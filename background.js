@@ -14,16 +14,22 @@ chrome.runtime.onInstalled.addListener((details) => {
   switch (reason) {
      case 'install':
         chrome.storage.local.set({
-          "active": true,
+          'active': true,
+        }, () => {
+          setUpContextMenus()
         })
         break;
      case 'update':
-        chrome.storage.local.get(['active'], (result) => {
-          let active = typeof result.active == 'boolean' ? result.active : true
-          chrome.storage.local.set({
-            "active": active,
+      chrome.storage.local.get('active', (result) => {
+        let active = typeof result.active == 'boolean' ? result.active : true
+        chrome.storage.local.set({
+          "active": active
+        }, () => {
+          chrome.contextMenus.removeAll(() => {
+            setUpContextMenus()
           })
         })
+      })
         break;
      default:
         break;
