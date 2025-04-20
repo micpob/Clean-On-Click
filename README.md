@@ -1,11 +1,10 @@
-# Copy on Select
+# Clean on click
 
 This Chrome extension will **clean any text field** from its content if you click on it while pressing the Ctrl button. 
 
 <br/>
 <div align="center" >
-  <!-- <img src="Docs/Screenshots/copy.png" alt="Copy on Select auto copy" width="450px" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);"> -->
-  <img src="Res/gifs/selection.gif" alt="Copy on Select auto copy" width="450px" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);">
+  <img src="Docs/Screenshots/clean_on_click_EN.png" alt="Copy on Select auto copy" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);">
 </div>
 <br/>
 
@@ -15,12 +14,12 @@ NOTE:
   
 &nbsp;  
 
-## Stack used:
+### Stack used:
 
 HTML, CSS, Javascript (Extensions APIs)
 
 &nbsp;
   
-### Chrome Web Store link: 
+### Install here: 
 
-https://chrome.google.com/webstore/detail/copy-on-select/kdfngfkkopeoejecmfejlcpblohnbael
+<a href="https://chromewebstore.google.com/detail/clean-on-click/jeooikeedccdbmaglmflljfmefeimloo"><img src="Docs/screenshots/chrome-web-store-logo-large.png" alt="Chrome web store button" width="250px" ></a>
